@@ -7,13 +7,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
 
+    //MARK: - IBOutlets
+    @IBOutlet var monitorClour: UIView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        monitorClour.layer.cornerRadius = 15
     }
-
+    
+//MARK: - IBActions
 
 }
 
