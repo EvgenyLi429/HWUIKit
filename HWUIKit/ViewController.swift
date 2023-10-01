@@ -25,6 +25,7 @@ final class ViewController: UIViewController {
         initSlidersLabels()
         monitorColor.layer.cornerRadius = 15
         monitorColor.alpha = 0.0
+        //monitorColor.backgroundColor = view.backgroundColor
     }
     
     //MARK: - IBActions
